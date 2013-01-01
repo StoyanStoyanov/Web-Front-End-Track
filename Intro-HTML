@@ -1,0 +1,386 @@
+<!-- EXERCISE 01. -->
+
+
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8" >
+		<meta name="keywords" content="runners,races,running" >
+		<meta name="author" content="Runners Home" >
+		<title>
+			Welcome to Runners Home&trade;
+		</title>
+		<style type="text/css">
+			h2
+			{ 
+				font-weight:normal; font-size:1em;
+		    }
+		</style>
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<hgroup>
+					<h2>
+						Hello, Stranger!
+					</h2>
+					
+					<h1>
+						Welcome to Runners Home&trade;
+					</h1>
+				</hgroup>
+			</header>
+			
+			<article>
+				<p>
+					Runners Home&trade; is dedicated to providing you with:
+					<br>
+					- the most up-to-date information on running races
+					<br>
+					- the best resources for runners.
+				</p>
+			</article>
+			
+			<hr>
+			
+			<footer>
+				<p>&copy; 2007 Runners Home. All rights reserved.</p>
+			</footer>
+		</section>
+	</body>
+</html>
+
+/* Optional CSS */
+
+dd
+{
+  margin-left: 0
+}
+hr
+{
+	width: 350px;
+	margin-left: 0
+}
+
+************************************************************************************************************************
+
+<!-- EXERCISE 02. -->
+
+
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<title>Nested Items</title>
+		<meta name="viewport" content="width=device-width, initial scale=1">
+		<meta name="keywords" content="html,css">
+		<meta name="author" content="Stoyan Stoyanov">
+	    <link rel="stylesheet" href="styles/style.css" type="text/css">
+	</head>
+
+	<body>
+		<section>
+			<h1>
+				Preceding Text
+			</h1>
+			<ol type="I">
+				<li>
+					List Item 1
+					<ol type="a">
+						<li>Nested Item 1.1</li>
+						<li>Nested Item 2.2</li>
+					</ol>
+				</li>
+				<li>
+					List Item 2
+					<ol>
+						<li>Nested Item 2.1</li>
+						<li>
+							Nested Item 2.2
+							<ul id="circle">
+								<li>
+									Nested Item 2.2.1
+								</li>
+								<li>
+									Nested Item 2.2.2
+									<ul>
+										<li>
+											Nested Item 2.2.2.1
+										</li>
+										<li>
+											Nested Item 2.2.2.2
+										</li>
+									</ul>
+								</li>
+								<li>
+									Nested Item 2.2.3
+								</li>
+							</ul>
+						</li>
+						<li>
+							Nested item 2.3
+						</li>
+					</ol>
+				</li>
+				<li>
+					List Item 3
+					<ul id="disc">
+						<li>
+							Nested Item 3.1
+						</li>
+						<li>
+							Nested Item 3.2
+						</li>
+						<li>
+							Nested Item 3.3
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</section>
+	</body>
+</html>
+
+/* Optional CSS */
+
+h1
+{
+  font-weight: normal;
+	font-size: 1em
+}
+#circle
+{
+	list-style-type: circle
+}
+#disc
+{
+	list-style-type: disc
+}
+ol ol li
+{
+	margin-left: 0
+}
+
+************************************************************************************************************************
+
+<!-- EXERCISE 03. -->
+
+
+<!-- Friends.html -->
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<title>Friends of Doncho Minkov</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="friends of Doncho Minkov, Telerik Academy">
+		<meta name="author" content="Stoyan Stoyanov">
+		<link rel="stylesheet" href="styles/profile-webpage-style.css" type="text/css">
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<nav>
+					<a href="Profile.html">Profile</a>
+					<a id="center" href="#">Friends</a>
+					<a href="Info.html">Additional Information</a>
+				</nav>
+				<br>
+				<hr>
+				
+				<h1>
+					Friends of Doncho
+				</h1>
+				
+				<hr>
+			</header>
+			<article>
+				<ol type="1">
+					<li>
+						<dl>
+							<dt>
+								Pesho Ivanov
+							</dt>
+							<dd>
+								Student
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								Vankata
+							</dt>
+							<dd>
+								Software Developer
+							</dd>
+						</dl>
+					</li>
+					
+					<li>
+						<dl>
+							<dt>
+								Bai Gosho
+							</dt>
+							<dd>
+								System Admin
+							</dd>
+						</dl>
+					</li>
+				</ol>
+			</article>
+		</section>
+	</body>
+</html>
+
+
+<!-- Profile.html -->
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8" >
+		<title>Profile Page of Doncho Minkov</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="Doncho Minkov,Telerik Academy,Telerik">
+		<meta name="author" content="Stoyan Stoyanov">
+		<link rel="stylesheet" href="styles/profile-webpage-style.css" type="text/css">
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<nav>
+					<a href="#">Profile</a> 
+					<a id="center" href="Friends.html">Friends</a> 
+					<a href="Info.html">Additional Information</a>
+				</nav>
+				<br> 
+			</header>
+			
+			<section>
+				<header>
+					<hr>
+					
+					<h1>
+						Profile of Doncho
+					</h1>
+					
+					<hr>
+					
+					<img src="images/DonchoMinkov.png" width="135" height="180" alt="This picture of Doncho Minkov is not available right now.">
+				</header>
+				<article>
+					<ul>
+					   <li>Name: Doncho Minkov</li>
+					   <li>Birthday: June 1989</li>
+					   <li>Occupation: Student</li>
+					   <li>Area of occupation: IT</li>
+					</ul>
+				</article>
+			</section>
+		</section>
+	</body>
+</html>
+
+<--! Info.html -->
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8" >
+		<title>Additional Information about Doncho</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="Doncho Minkov, Telerik Academy,Telerik">
+		<meta name="author" content="Stoyan Stoyanov">
+		<link rel="stylesheet" href="styles/profile-webpage-style.css" type="text/css">
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<nav>
+					<a href="Profile.html">Profile</a>
+					<a id="center" href="Friends.html">Friends</a>
+					<a href="#">Additional Information</a>
+				</nav>
+				<br>
+				<hr>
+				
+				<h1>
+					Additional Information about Doncho
+				</h1>
+				
+				<hr>
+			</header>
+			
+			<article>
+				<p>
+					Student at <a href="http://www.uni-sofia.bg/">Sofia University</a>
+				</p>
+				<p>
+					Born in Burgas
+				</p>
+				<p>
+					Living in Sofia
+				</p>
+				<p>
+					Working at <a href="http://www.telerik.com">Telerik</a>
+				</p>
+			</article>
+		</section>
+	</body>
+</html>
+
+/* Optional CSS ( applied to all of the three .html files ) */
+
+img
+{
+  background-color: #696969
+}
+section
+{
+	width:550px;
+	background-color: #afeeee
+}
+hr
+{
+	border-color: #add8e6;
+	background-color: #00ced1;
+	height: 2px
+}
+
+h1 
+{ 
+	display:inline
+}
+#center 
+{ 
+	padding:150px
+}
+
+p,h1,dt
+{
+	font-style: italic
+}
+ul li
+{
+	list-style-type: none;
+}
+ul
+{
+	padding-left: 0
+}
+
+****************************************************************************************************************************
+/* The End */
+
