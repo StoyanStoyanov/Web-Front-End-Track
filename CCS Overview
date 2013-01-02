@@ -1,0 +1,356 @@
+<!-- EXERCISE 01. TicketID -->
+
+<!-- HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ticket ID</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Stoyan Stoyanov">
+        <link rel="stylesheet" href="TicketIDStyles.css">
+    </head>
+    <body>
+        <section>
+            <table>
+                <caption class="lightgrey">Ticket ID: 409788</caption>
+                <thead>
+                    <tr>
+                        <th class="double">Name:</th>
+                        <td>
+                            <span id="bigGreenDot">00</span>
+                            <a href="#">Parker Seidel</a>
+                            <br>
+                            <span id="red">No Active Support</span>
+                        </td>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Status: </th>
+                        <td><span id="orange">Not Answered</span></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th>Email:</th>
+                        <td>
+                            <a href="mailto:seidel@aptmail.com">seidel@aptmail.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Response Time:</th>
+                        <td class="lightgrey">72 hours, 60 hours left</td>
+                    </tr>
+                    <tr>
+                        <th class="double">Last Action: </th>
+                        <td class="lightgrey">Never been locked.
+                            <br>
+                            <a href="#">Link to public post</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
+​
+/* CSS */
+
+table 
+{
+    font-family: sans-serif;
+    background: grey;
+}
+
+td, th
+{
+    padding: 10px 12px 10px 10px
+}
+
+a
+{
+    text-decoration: none;
+    color: Wheat
+}
+
+td
+{
+    text-align: left
+}
+
+th
+{
+    font-weight: 100;
+    font-style: italic;
+    color: azure;
+    text-align: left
+}
+
+caption
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    background: grey;
+    font-size: 1.5em;
+    text-align: left 
+}
+
+#bigGreenDot 
+{
+    font-size: 0.6em;
+    padding-top: 3px;
+    padding-left: 3px;
+    color: #00ff90;
+    background: #00ff90;
+    border-radius: 7px
+}
+
+.double
+{
+    vertical-align: top
+}
+
+.lightgrey
+{
+    color: lightgray
+}
+
+#red
+{
+    color: red
+}
+
+#orange
+{
+    color: orange
+}​
+
+************************************************************************************************************************
+
+<!-- EXERCISE 02.Contact List -->
+
+<!-- HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercise 02. Contacts List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ContactsListStyles.css">
+    </head>
+    <body>
+        <form method="post" action="#">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Contact name</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th id="last">Is Promoted</th>
+                    </tr>
+                </thead>
+                <tfoot></tfoot>
+                <tbody>
+                    <tr>
+                        <td>Maria Anders</td>
+                        <td>Berlin</td>
+                        <td>
+                            <img src="images\germany.jpg" width="30px" height="20px" alt="Country Flag">
+                            <span>Germany</span>
+                        </td>
+                        <td><input type="checkbox" disabled></td>
+                    </tr>
+                    <tr class="azure">
+                        <td>Ana Trujillo</td>
+                        <td>M&#233xico D.F.</td>
+                        <td>
+                            <img src="images\Mexico.jpg" width="30px" height="20px" alt="Country Flag">
+                            <span>Mexico</span>
+                        </td>
+                        <td><input type="checkbox" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Antonio Moreno</td>
+                        <td>M&#233xico D.F.</td>
+                        <td>
+                            <img src="images\Mexico.jpg" width="30px" height="20px" alt="Country Flag">
+                            <span>Mexico</span>
+                        </td>
+                        <td><input type="checkbox" checked disabled></td>
+                    </tr>
+                    <tr class="azure">
+                        <td>Thomas Hardy</td>
+                        <td>London</td>
+                        <td>
+                            <img src="images\UK.jpg" width="30px" height="20px" alt="Country Flag">
+                            <span>UK</span>
+                        </td>
+                        <td><input type="checkbox" disabled></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
+
+/* CSS */
+
+body 
+{
+    font-family: sans-serif
+}
+table
+{
+    text-align: left;
+    border: 1px solid grey;
+    border-collapse: collapse
+}
+th
+{
+    font: normal;
+    background-color: #82B517;
+    color: white;
+    border-bottom: 1px solid grey
+}
+th, td
+{
+   border-right: 1px solid grey;
+   padding: 7px 80px 7px 5px
+}
+#last
+{
+  padding-left: 10px;
+  padding-right: 10px
+}
+img
+{
+   vertical-align: middle
+}
+.azure
+{
+  background-color: azure   
+}
+
+
+*************************************************************************************************************************
+
+
+<!-- EXERCISE 03.Create A Web Page -->
+
+<!-- HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Telerik Software Academy 2012 CSS Course</title>
+        <link rel="stylesheet" href="homework-3-styles.css">
+    </head>
+    <body>
+        <header id="main">
+            <h1>The Header</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Nav item</a>
+                    </li>
+                    <li>
+                        <a href="#" class="current">Nav item</a>
+                    </li>
+                    <li>
+                        <a href="#">Nav item</a>
+                    </li>
+                    <li>
+                        <a href="#">Nav item</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <header>
+                    <h1>Sed nisl quam, rutrum eget commodo et, ullamcorper sed quam</h1>
+                </header>
+                <p>In posuere bibendum enim vel venenatis. Integer gravida, tortor quis gravida fermentum, libero orci hendrerit sapien, sed facilisis turpis mauris vitae turpis. Suspendisse nunc justo, dapibus in condimentum eget, rutrum id risus. Ut varius vulputate tortor. Suspendisse fermentum laoreet ante, ut placerat enim condimentum tristique. Sed gravida scelerisque enim at euismod. Integer aliquam vehicula purus quis accumsan. Nulla eu orci nec metus condimentum vestibulum sit amet quis lacus. Mauris tempor venenatis ultrices. Phasellus et leo a massa dapibus pharetra. Donec ut tellus vel mauris imperdiet ornare. Aliquam lacus purus, dictum et tristique id, ornare vitae arcu. Sed rutrum, neque sit amet euismod viverra, libero erat fermentum neque, a cursus libero urna eu erat. Pellentesque at tempor risus.</p>
+                <footer>
+                    <p>posted on 12-dec-2012 by <a href="#">Doncho Minkov</a></p>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Duis lacus erat, tristique non pharetra ac, bibendum sit amet ante</h1>
+                </header>
+                <p>Quisque tortor mi, consequat eu volutpat in, convallis a turpis. Aenean neque mi, vehicula id sollicitudin hendrerit, posuere quis elit. Aliquam ultricies ante fringilla tortor scelerisque a pharetra orci ornare. Vivamus nec mi id lorem ullamcorper convallis. Maecenas ornare volutpat dui. Aliquam erat volutpat. Aliquam erat volutpat. Nulla gravida erat nec erat pulvinar sed rhoncus risus congue. Nulla vel dui elit.</p>
+                <footer>
+                    <p>posted on 12-dec-2012 by <a href="#">Doncho Minkov</a></p>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h1>Aliquam eleifend, nisi ut facilisis pharetra, mauris ipsum sagittis lacus</h1>
+                </header>
+                <p>Aliquam eleifend, nisi ut facilisis pharetra, mauris ipsum sagittis lacus, vel aliquam urna felis ac leo. Nullam massa odio, consequat ut posuere at, lacinia at nunc. Curabitur quam dolor, malesuada ac sodales eget, malesuada eu ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed in nibh vitae ante elementum pharetra hendrerit in ligula. Proin non leo lorem, in ultricies tortor. Donec in nibh non diam ultricies feugiat vitae quis arcu. Sed sit amet odio quis eros pharetra ullamcorper. Nam id erat et leo varius molestie vitae a est. Curabitur ornare orci at dolor cursus sagittis. Phasellus vitae bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                <footer>
+                    <p>posted on 12-dec-2012 by <a href="#">Doncho Minkov</a></p>
+                </footer>
+            </article>
+        </section>
+        <footer id="footer">Telerik Software Academy 2012 - CSS Course</footer>
+    </body>
+</html>
+
+/* CSS */
+
+body 
+{
+    background-color: gray
+}
+h1, a
+{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover
+{
+    background-color: lightgrey
+}
+#main
+{
+     text-align: center
+}
+ul
+{
+    list-style-type: none
+}
+
+p a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+#footer
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em
+}
+
+footer
+{
+    font-size: 0.8em
+}
+li:last-child
+{
+   text-decoration: underline
+}
+
+
+************************************************************************************************************************
+
+/* The End */
