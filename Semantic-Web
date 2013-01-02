@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <title>Refactored to HTML5</title>
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Stoyan Stoyanov">
 		<link rel="stylesheet" href="RefactoredStyles.css">
     </head>
