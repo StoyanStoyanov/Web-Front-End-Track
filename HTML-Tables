@@ -6,15 +6,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<meta charset="UTF-8">
-		<meta name="keywords" content="fresh fruits, health, diets, fitness, healthy food">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Stoyan Stoyanov">
-		<link rel="stylesheet" href="1.1%20FreshFruits-style.css" type="text/css">
-		<title>
-			Fresh Fruits
-		</title>
-	</head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="fresh fruits, health, diets, fitness, healthy food">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Stoyan Stoyanov">
+	<link rel="stylesheet" href="1.1%20FreshFruits-style.css" type="text/css">
+	<title>Fresh Fruits</title>
+  </head>
 	
 	<body>
 		<div id="wrapper">
